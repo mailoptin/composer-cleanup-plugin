@@ -8,7 +8,7 @@ class CleanupRules
     {
         // Default patterns for common files
         $docs = 'README* CHANGELOG* FAQ* CONTRIBUTING* CODE_OF_CONDUCT* HISTORY* UPGRADING* UPGRADE* package* demo example examples doc docs readme*';
-        $tests = '.travis.yml .php_cs styleci.yml puli.json .scrutinizer.yml phpunit.xml* phpunit.php test tests Tests travis';
+        $tests = '.travis.yml .php_cs gulpfile.js package.json styleci.yml puli.json .scrutinizer.yml phpunit.xml* phpunit.php test tests Tests travis';
 
         return array(
             'anahkiasen/former' => array($docs, $tests),
